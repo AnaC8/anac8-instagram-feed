@@ -1,0 +1,52 @@
+body{
+    background-color:#FFFFFF;
+}
+
+header{
+    background-color: white;
+}
+
+h1{
+    font-size: 44px;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    margin-top: 40px;
+    box-shadow:1px 3px 7px rgba(50, 50, 50, 0.1);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-footer{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.post h2,
+post span {
+    padding: 15px 15px;
+    margin: 0;
+}
+
+span{
+    color: rgb(200, 200, 200);
+    padding-right: 15px;
+}
+
+img{
+   width: 100%; 
+}
+
